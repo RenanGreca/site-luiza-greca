@@ -1,0 +1,14 @@
+:root {
+    --background: #000000;
+    --white: #000000;
+    --text-light: #3A317C;
+    --text-dark: #241760;
+
+    /* --header-width-1600: 1570px; */
+    --header-width-1200: 800px;
+    --header-width-1000: 600px;
+
+    --font-title: "Constantia";
+    --font-header: "Abel";
+    --font-text: "Ubuntu";
+}

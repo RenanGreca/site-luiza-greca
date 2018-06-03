@@ -1,0 +1,60 @@
+/*default version*/
+@font-face {
+	font-family: 'Abel';
+	src: url('../fonts/Abel/abel-regular.ttf');
+	src:
+		local('Abel'),
+		local('Abel'),
+		url('../fonts/Abel/abel-regular.ttf')
+		format('truetype');
+}
+
+@font-face {
+	font-family: 'Constantia';
+	src: url('../fonts/Constantia/constan.ttf');
+	src:
+		local('Constantia'),
+		url('../fonts/Constantia/constan.ttf')
+		format('truetype');
+}
+
+
+@font-face {
+	font-family: 'Ubuntu';
+	src: url('../fonts/Ubuntu/Ubuntu-R.ttf');
+	src:
+		local('Ubuntu'),
+		url('../fonts/Ubuntu/Ubuntu-R.ttf')
+		format('truetype');
+}
+
+@font-face {
+	font-family: 'Ubuntu';
+	src: url('../fonts/Ubuntu/Ubuntu-RI.ttf');
+	src:
+		local('Ubuntu'),
+		url('../fonts/Ubuntu/Ubuntu-RI.ttf')
+		format('truetype');
+  font-style: italic;
+}
+
+@font-face {
+	font-family: 'Ubuntu';
+	src: url('../fonts/Ubuntu/Ubuntu-B.ttf');
+	src:
+		local('Ubuntu'),
+		url('../fonts/Ubuntu/Ubuntu-B.ttf')
+		format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+	font-family: 'Ubuntu';
+	src: url('../fonts/Ubuntu/Ubuntu-BI.ttf');
+	src:
+		local('Ubuntu'),
+		url('../fonts/Ubuntu/Ubuntu-BI.ttf')
+		format('truetype');
+  font-style: italic;
+  font-weight: bold;
+}
