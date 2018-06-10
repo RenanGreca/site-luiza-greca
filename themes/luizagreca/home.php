@@ -194,6 +194,12 @@ $noticias_array = get_posts_from_category('noticias');
         </div>
 
         <div class="contato-map half-block block-right">
+          <iframe
+            width="360"
+            height="300"
+            frameborder="0" style="border:0"
+            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDuLM6i6jTgkeKDz0nY6vwNYQ6p8qJfyfg&q=R.+Francisco+G+Villanueva,+66+-+Tarumã,+Curitiba+-+PR,+82530-400" allowfullscreen>
+          </iframe>
         </div>
 
       </div>
