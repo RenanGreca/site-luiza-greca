@@ -11,6 +11,10 @@
 
 </div>
 
+<?php
+$casos_array = get_posts_from_category('casos');
+ ?>
+
 <span class="horizontal-line"></span>
 <div class="container">
   <div id="casos" class="section">
@@ -18,26 +22,11 @@
 
     <div class="mosaic-row">
 
-      <div class="mosaic-item">
-        <div class="mosaic-image">
-        </div>
-        <h2>Título do caso</h2>
-        Breve descrição do caso relatado na matéria. No máximo três linhas.
-      </div>
-
-      <div class="mosaic-item">
-        <div class="mosaic-image">
-        </div>
-        <h2>Título do caso maior que o normal</h2>
-        Breve descrição do caso relatado na matéria. No máximo três linhas.
-      </div>
-
-      <div class="mosaic-item">
-        <div class="mosaic-image">
-        </div>
-        <h2>Título do caso</h2>
-        Breve descrição do caso relatado na matéria. No máximo três linhas.
-      </div>
+      <?php
+        display_mosaic_item_with_post($casos_array[0]);
+        display_mosaic_item_with_post($casos_array[1]);
+        display_mosaic_item_with_post($casos_array[2]);
+       ?>
 
     </div>
 
@@ -51,6 +40,10 @@
 </h3></a>
 </div>
 
+<?php
+$noticias_array = get_posts_from_category('noticias');
+ ?>
+
 <span class="horizontal-line"></span>
 <div class="container">
   <div id="noticias" class="section">
@@ -58,7 +51,13 @@
 
     <div class="mosaic-row">
 
-      <div class="mosaic-item">
+      <?php
+        display_mosaic_item_with_post($noticias_array[0]);
+        display_mosaic_item_with_post($noticias_array[1]);
+        display_mosaic_item_with_post($noticias_array[2]);
+       ?>
+
+      <!-- <div class="mosaic-item">
         <div class="mosaic-image">
         </div>
         <h2>Título da notícia</h2>
@@ -77,7 +76,7 @@
         </div>
         <h2>Título da notícia</h2>
         Breve descrição da notícia relatada na matéria. No máximo três linhas.
-      </div>
+      </div> -->
 
     </div>
 
