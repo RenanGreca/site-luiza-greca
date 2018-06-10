@@ -103,22 +103,110 @@
     <div id="atuacao" class="section">
       <h1>Áreas de Atuação</h1>
 
+      <div id="atuacao-contents">
+        <div class="half-block block-left atuacao-left">
+          <h2>Consultoria em Engenharia Civil</h2>
+          Acessoria na área de construção civil.
+
+          <div class="block-space"></div>
+
+          <h2>Inspeções Prediais</h2>
+          Vistoria em condomínios e edificações em geral para a verificação das condições físicas dos imóveis.<br/>
+          Elaboramos o Plano de Manutenção de Condomínios para que síndicos e administradoras tenham a diretriz das prioridades das manutenções corretivas e preventivas que deverão ser executadas.
+        </div>
+
+        <div class="block-separator">
+        </div>
+
+        <div class="half-block block-right atuacao-right">
+          <h2>Laudos de Vistorias</h2>
+          Execução de laudos técnicos com o diagnóstico da situação do imóvel.
+
+          <div class="block-space"></div>
+
+          <h2>Avaliações Urbanas</h2>
+          Avaliações de valor de mercado para imóveis urbanos.
+
+          <div class="block-space"></div>
+
+          <h2>Laudos de Vizinhança</h2>
+          Execução de laudos técnicos preventivos de edificações vizinhas às novas construções.
+
+        </div>
+      </div>
+
     </div>
   </div>
 </div>
 
-<span class="horizontal-line"></span>
-<div class="container">
-  <div class="casos">
-    <h1>Sobre</h1>
+<div class="sobre-bg">
+
+  <div class="gradient-white-top">
+  </div>
+
+  <div class="gradient-white-bottom">
+  </div>
+
+  <span class="horizontal-line"></span>
+  <div class="container">
+    <div id="sobre" class="section">
+      <h1>Sobre</h1>
+
+      <div id="atuacao-contents">
+        <div class="sobre-image half-block block-left">
+        </div>
+
+        <div class="block-separator">
+        </div>
+
+        <div class="half-block block-right sobre-right">
+          <h2>Luiza Greca</h2>
+          Texto falando dos seus valores, contando um pouco da sua história na área e o porquê do cliente dever escolher você no
+          seu mercado. É importante algo assim numa empresa que carrega um nome próprio como seu nome, para aproximar mais o cliente, gerando confiança. Aqui você também deve falar da sua formação, certificações, etc.
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
-<span class="horizontal-line"></span>
-<div class="container">
-  <div class="casos">
-    <h1>Contato</h1>
+<div class="contato-bg">
+
+  <div class="gradient-white-top">
+  </div>
+
+  <div class="gradient-white-bottom">
+  </div>
+
+  <span class="horizontal-line"></span>
+  <div class="container">
+    <div id="contato" class="section">
+      <h1>Contato</h1>
+
+      <div id="contato-contents">
+
+        <div class="half-block block-left contato-left">
+          <b>Visite minha página no Facebook</b><br/>
+          E-mail: emailexemplo@email.com.br<br/>
+          Telefone: (41) 99999-9999<br/>
+          Endereço: R. Exemplo, 123, próximo a Exemplo.
+        </div>
+
+        <div class="block-separator">
+        </div>
+
+        <div class="contato-map half-block block-right">
+        </div>
+
+      </div>
+    </div>
   </div>
 </div>
+
+<!-- <span class="horizontal-line"></span>
+<div class="container">
+  <div id="contato" class="section">
+    <h1>Contato</h1>
+  </div>
+</div> -->
 
 <?php get_footer(); ?>
