@@ -7,6 +7,12 @@
   height: 100px;
 }
 
+@media (max-width: 600px) {
+  .navbar {
+    display: none;
+  }
+}
+
 .nav {
   margin-bottom: 20px;
   margin-left: 0;

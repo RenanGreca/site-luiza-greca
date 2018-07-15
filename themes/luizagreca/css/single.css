@@ -11,7 +11,7 @@ h1 {
 }
 
 .background {
-  background-image: url('../img/bg-1.png');
+  background-image: url('../img/bg-1.jpg');
   background-size: cover;
   z-index: -3;
   width: 100%;
@@ -23,8 +23,18 @@ h1 {
 .gradient-white-top,
 .gradient-white-bottom {
   z-index: -2;
-  height: 500px;
+  /* height: 500px; */
   /* position: relative; */
+}
+
+.part1 {
+  height: 200px;
+}
+
+@media (min-width: 600px) {
+  .part1 {
+    display: none;
+  }
 }
 
 .container {
@@ -51,9 +61,20 @@ h1 {
 .post-contents {
   font-family: var(--font-text);
   color: var(--text-dark);
-  font-size: 14px;
+  font-size: 16px;
   width: 70%;
   margin-bottom: 100px;
+}
+
+@media (max-width: 600px) {
+  .post-image {
+    height: 200px;
+  }
+
+  .post-contents {
+    width: 100%;
+    /* margin: 0 auto 100px auto; */
+  }
 }
 
 .post-contents a {
