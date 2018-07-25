@@ -132,7 +132,7 @@ $noticias_array = get_posts_from_category('noticias');
         <div class="half-block block-right sobre-right">
           <h2>Luiza Greca</h2>
           Engenheira Civil formada pela Universidade Federal do Paraná em 1988.
-          Iniciou sua carreira no ramo de licitações de obras públicas e posteriormente consolidou sua carreira na área administrativa de obras atuando em  orçamentos,
+          Iniciou sua carreira no ramo de licitações de obras públicas e posteriormente se consolidou na área administrativa de obras atuando em orçamentos,
           custos de construções, gerenciamento de fornecedores de materiais, de equipamentos e empreiteiros.
           Paralelamente, capacitou-se na área de Engenharia de Avaliações de Imóveis Urbanos, trabalhando no ramo desde o ano de 2000 e
           obtendo o Certificado de Qualificação Profissional em Engenharia de Avaliações – Qualificação “A” do IBAPE Nacional em 2014, renovado em 2017.
