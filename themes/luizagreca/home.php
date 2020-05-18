@@ -99,7 +99,7 @@ $noticias_array = get_posts_from_category('noticias');
 
           <div class="block-space"></div>
 
-          <h2>Laudos de Vizinhança</h2>
+          <h2>Vistorias Caultelares</h2>
           Execução de laudos técnicos preventivos de edificações vizinhas às novas construções.
 
         </div>
@@ -136,7 +136,7 @@ $noticias_array = get_posts_from_category('noticias');
           custos de construções, gerenciamento de fornecedores de materiais, de equipamentos e empreiteiros.
           Paralelamente, capacitou-se na área de Engenharia de Avaliações de Imóveis Urbanos, trabalhando no ramo desde o ano de 2000 e
           obtendo o Certificado de Qualificação Profissional em Engenharia de Avaliações – Qualificação “A” do IBAPE Nacional em 2014, renovado em 2017.
-          Atua, também, na área de Inspeção Predial e atualmente amplia seus conhecimentos com a Pós Gradução em andamento em Patologia nas Obras Civis pela Faculdade IDD.
+          É também especialista em Patologias de Obras Civis pelo IDD e atua na área de Inspeção Predial.
         </div>
       </div>
     </div>
